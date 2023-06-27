@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SJTYNetWorkFramewrok'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'A short description of SJTYNetWorkFramewrok.'
   
 # This description is used to generate tags and improve search results.
@@ -22,15 +22,11 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
+  s.requires_arc = true
 
-  s.source_files = 'SJTYNetWork/*'
-  
-  # s.resource_bundles = {
-  #   'SJTYNetWork' => ['SJTYNetWork/Assets/*.png']
-  # }
+  s.ios.vendored_frameworks ='SJTYNetWork.framework'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+
    s.dependency 'AFNetworking'
    s.dependency 'MJExtension'
    
