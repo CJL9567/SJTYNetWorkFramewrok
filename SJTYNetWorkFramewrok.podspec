@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SJTYNetWorkFramewrok'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'A short description of SJTYNetWorkFramewrok.'
   
 # This description is used to generate tags and improve search results.
@@ -23,7 +23,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'SJTYNetWorkFramewrok/*'
+  s.source_files = 'SJTYNetWork/*'
   
   # s.resource_bundles = {
   #   'SJTYNetWork' => ['SJTYNetWork/Assets/*.png']
